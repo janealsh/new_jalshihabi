@@ -178,6 +178,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
 }
 
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
 
 #root {
   max-width: 1280px;
@@ -202,8 +209,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .navbar-name {
   font-size: 2.2rem;
   font-weight: 900;
-  float: left;
   letter-spacing: -1px;
+  display: flex;
+  justify-content: left;
 }
 
 .logo {
