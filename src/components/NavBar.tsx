@@ -1,6 +1,9 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import jjIcon from "../assets/images/temp-jj-logo-resized.svg"
+import jalshihabi_logo from "../assets/images/jalshihabi_logo.svg"
+import github_icon from "../assets/images/github-white.svg"
+import linkedin_icon from "../assets/images/linkedin-white.svg"
 
 export const NavBar = () => {
     const [currentLink, setCurrentLink] = useState("home");
@@ -28,7 +31,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Navbar.Brand href="#home" style={{width: "30%"}}>
                 <Container className="navbar-logo-area">
-                    <img src={jjIcon} alt="JA Logo" />
+                    <img className="logo" src={jalshihabi_logo} alt="JA LOGO" />
                     <div className="navbar-name-area">
                         <div className="navbar-name">Jane Al-Shihabi</div>
                         <div>Web Developer, Designer, Thinker</div>
@@ -37,7 +40,7 @@ export const NavBar = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto navbar-links">
+                <Nav className="ms-auto">
                     <Nav.Link href="#home" className={currentLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("home")}>Home</Nav.Link>
                     <Nav.Link href="#skills" className={currentLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("skills")}>Skills</Nav.Link>
                     <Nav.Link href="#projects" className={currentLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("projects")}>Projects</Nav.Link>
@@ -45,8 +48,8 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/jane-al-shihabi/"> <img src={''} alt="linkedin" /> </a>
-                        <a href="https://github.com/janealsh"> <img src={''} alt="github" /> </a>
+                        <a href="https://www.linkedin.com/in/jane-al-shihabi/"> <img src={linkedin_icon} alt="linkedin" /> </a>
+                        <a href="https://github.com/janealsh"> <img src={github_icon} alt="github" /> </a>
                     </div>
                 </span>
             </Navbar.Collapse>
