@@ -270,6 +270,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 16%;
 }
 
+/* Banner CSS */
+
+.banner {
+  margin-top: 0px;
+  padding: 260px 0 100px 0;
+}
+
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #60606080 -2%, #00000080 92% );
+  border: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

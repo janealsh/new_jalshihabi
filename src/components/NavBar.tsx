@@ -41,10 +41,10 @@ export const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="#home" className={currentLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("home")}>Home</Nav.Link>
-                    <Nav.Link href="#skills" className={currentLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("skills")}>Skills</Nav.Link>
-                    <Nav.Link href="#projects" className={currentLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("projects")}>Projects</Nav.Link>
-                    <Nav.Link href="#about-me" className={currentLink === "about-me" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("about-me")}>About Me</Nav.Link>
+                    <Nav.Link href="#home" className={currentLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("home")}>home</Nav.Link>
+                    <Nav.Link href="#skills" className={currentLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("skills")}>skills</Nav.Link>
+                    <Nav.Link href="#projects" className={currentLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("projects")}>projects</Nav.Link>
+                    <Nav.Link href="#about-me" className={currentLink === "about-me" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("about-me")}>about me</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
