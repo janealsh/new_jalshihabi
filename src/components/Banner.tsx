@@ -44,13 +44,14 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={8}>
                         <span className="tagline">welcome to my portfolio!</span>
-                        <h1>{`hi, I'm Jane Al-Shihabi, `}<span className="wrap">{text}</span></h1>
+                        {/* using a non-breaking hyphen for proper styling on different screen sizes (silly last name :P)*/}
+                        <h1>{`hi, I'm Jane Al‑Shihabi, `}<span className="wrap">{text}</span></h1>
                         <p>A little bit about me, I'd like to use my technological skills to make positive social change in the world.</p>
                         <button onClick={() => console.log("Projects")}>Check out my projects <ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={4}>
                         <DotLottieReact
                             loop
                             autoplay
