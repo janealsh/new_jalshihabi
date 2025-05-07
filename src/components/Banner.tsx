@@ -49,7 +49,7 @@ export const Banner = () => {
                         {/* using a non-breaking hyphen for proper styling on different screen sizes (silly last name :P)*/}
                         <h1>{`hi, I'm Jane Al‑Shihabi, `}<span className="wrap">{text}</span></h1>
                         <p>A little bit about me, I'd like to use my technological skills to make positive social change in the world.</p>
-                        <button onClick={() => console.log("Projects")}>Check out my projects <ArrowRightCircle size={25}></ArrowRightCircle></button>
+                        <button onClick={() => console.log("Projects")}>check out my projects <ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs={12} md={6} xl={4}>
                         <DotLottieReact
