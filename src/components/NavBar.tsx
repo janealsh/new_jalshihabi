@@ -33,8 +33,8 @@ export const NavBar = () => {
                 <Container className="navbar-logo-area">
                     <img className="logo" src={jalshihabi_logo} alt="JA LOGO" />
                     <div className="navbar-name-area">
-                        <div className="navbar-name">Jane Al-Shihabi</div>
-                        <div>Web Developer, Designer, Thinker</div>
+                        <div className="navbar-name" >Jane Al-Shihabi</div>
+                        <div style={{fontWeight: "400"}}>eb Developer, Designer, Thinker</div>
                     </div>
                 </Container>
             </Navbar.Brand>

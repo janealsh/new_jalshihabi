@@ -9,13 +9,13 @@
 @font-face {
   font-family: Centra;
   src: url("./assets/fonts/CentraNo2-Medium.ttf");
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: Centra;
   src: url("./assets/fonts/CentraNo2-Book.ttf");
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* Default CSS */
@@ -297,7 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .tagline {
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.8px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, #60606080 -2%, #00000080 92%);
@@ -309,7 +309,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner h1 {
   font-size: 65px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
@@ -326,7 +326,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner button {
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
@@ -357,11 +357,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skills-box {
-  background: #151515;
+  background: #191919;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 40px;
 }
 .skills h2 {
   font-size: 45px;
@@ -381,18 +381,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 
-.skills h5 {
-  width: fit-content; 
-  border: #6c9db0 solid 2px;
-  padding: 12px;
-  border-radius: 32px;
-}
-
 .skill-item {
   display: flex;
   justify-content: center;
   width: 50%;
   margin: 0 auto 15px auto;
+}
+
+.skill-item h5 {
+  width: fit-content; 
+  border: #6c9db0 solid 2px;
+  padding: 16px;
+  border-radius: 32px;
 }
 
 

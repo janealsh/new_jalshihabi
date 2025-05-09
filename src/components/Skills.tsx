@@ -31,24 +31,25 @@ export const Skills = () => {
             <Container>
                 <Row>
                     <Col>
-                        <div className="skills-box"></div>
-                        <h2>skills</h2>
-                        <p>hey, these are my skills. i have experience in a lot of engineering areas, so i'm basically a jack of all trades. <br></br> the perks of being a systems design engineer!</p>
-                        <Carousel responsive={responsive} infinite={true} draggable={true} className="skills-slider">
-                            {/* TODO remove  skill item class prob don't need it */}
-                            <div className="skill-item"> 
-                                <h5>web development</h5>
-                            </div>
-                            <div className="skill-item">
-                                <h5>UX/UI design</h5>
-                            </div>
-                            <div className="skill-item">
-                                <h5>electromechanical design</h5>
-                            </div>
-                            <div className="skill-item">
-                                <h5>project management</h5>
-                            </div>
-                        </Carousel>
+                        <div className="skills-box">
+                            <h2>skills</h2>
+                            <p>this is a basic outline of my skills. I have experience in a lot of engineering areas, so I'm basically a jack of all trades. <br></br> the perks of being a systems design engineer!</p>
+                            <Carousel responsive={responsive} infinite={true} draggable={true} className="skills-slider">
+                                {/* TODO remove  skill item class prob don't need it */}
+                                <div className="skill-item">
+                                    <h5>web development</h5>
+                                </div>
+                                <div className="skill-item">
+                                    <h5>UX/UI design</h5>
+                                </div>
+                                <div className="skill-item">
+                                    <h5>electromechanical design</h5>
+                                </div>
+                                <div className="skill-item">
+                                    <h5>project management</h5>
+                                </div>
+                            </Carousel>
+                        </div>
                     </Col>
                 </Row>
             </Container>
