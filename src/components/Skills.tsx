@@ -3,7 +3,6 @@ import Carousel from "react-multi-carousel"
 import { Row, Col } from "react-bootstrap"
 import "react-multi-carousel/lib/styles.css"
 
-
 export const Skills = () => {
 
     const responsive = {
@@ -35,7 +34,7 @@ export const Skills = () => {
                             <h2>skills</h2>
                             <p>this is a basic outline of my skills. I have experience in a lot of engineering areas, so I'm basically a jack of all trades. <br></br> the perks of being a systems design engineer!</p>
                             <Carousel responsive={responsive} infinite={true} draggable={true} className="skills-slider">
-                                {/* TODO remove  skill item class prob don't need it */}
+                                {/* TODO remove skill item class prob don't need it */}
                                 <div className="skill-item">
                                     <h5>web development</h5>
                                 </div>

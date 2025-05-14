@@ -349,6 +349,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.banner-intro {
+  min-height: 11em
+}
+
 /* Skills CSS */
 
 .skills {
@@ -389,7 +393,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-item h5 {
-  width: fit-content; 
+  width: fit-content;
   border: #6c9db0 solid 2px;
   padding: 16px;
   border-radius: 32px;
