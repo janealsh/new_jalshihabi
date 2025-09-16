@@ -25,7 +25,7 @@ export const Projects = () => {
                     <Col>
                         <h2>Projects</h2>
                         <p>these are my projects, I have some UX/UI and web development ones.</p>
-                        <Tab.Container id="project-tabs" defaultActiveKey="first">
+                        <Tab.Container id="project-tabs" defaultActiveKey="software">
                             <Row>
                                 <Col sm={3}>
                                     <Nav variant="pills" className="">
