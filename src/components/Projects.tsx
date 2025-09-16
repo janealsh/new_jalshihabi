@@ -1,5 +1,6 @@
 import { Row, Col, Container } from "react-bootstrap"
 import { Tab, Nav } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
     const softwareProjects = [
@@ -42,14 +43,14 @@ export const Projects = () => {
                                         <Tab.Pane eventKey="software">
                                             <Row>
                                                 {softwareProjects.map((project, index) => {
-                                                    return (<p>{project.title}</p>)
+                                                    return (<ProjectCard key={index} {...project}/>)
                                                 })}
                                             </Row>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="uxui">
                                             <Row>
                                                 {uxuiProjects.map((project, index) => {
-                                                    return (<p>{project.title}</p>)
+                                                    return (<ProjectCard key={index} {...project}/>)
                                                 })}
                                             </Row>
                                         </Tab.Pane>
