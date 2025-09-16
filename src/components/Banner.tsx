@@ -51,7 +51,7 @@ export const Banner = () => {
                             <h1>{`hi, I'm Jane Al‑Shihabi, `}</h1>
                             <h1><span className="wrap">{text}</span></h1>
                         </div>
-                        <p>A little bit about me, I'd like to use my technological skills to make positive social change in the world.</p>
+                        <p>My ultimate career and life goal: to make use of my technological skills to make positive social change in the world.</p>
                         <button onClick={() => console.log("Projects")}>check out my projects <ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs={12} md={6} xl={4}>

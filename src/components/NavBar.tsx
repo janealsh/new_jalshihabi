@@ -2,8 +2,8 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import jjIcon from "../assets/images/temp-jj-logo-resized.svg"
 import jalshihabi_logo from "../assets/images/jalshihabi_logo.svg"
-import github_icon from "../assets/images/github-white.svg"
-import linkedin_icon from "../assets/images/linkedin-white.svg"
+import github_icon from "../assets/images/github_final.svg"
+import linkedin_icon from "../assets/images/linkedin_final.svg"
 
 export const NavBar = () => {
     const [currentLink, setCurrentLink] = useState("home");
@@ -48,8 +48,8 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/jane-al-shihabi/"> <img src={linkedin_icon} alt="linkedin" /> </a>
-                        <a href="https://github.com/janealsh"> <img src={github_icon} alt="github" /> </a>
+                        <a href="https://www.linkedin.com/in/jane-al-shihabi/" target="_blank"> <img src={linkedin_icon} alt="linkedin" /> </a>
+                        <a href="https://github.com/janealsh" target="_blank"> <img src={github_icon} alt="github" /> </a>
                     </div>
                 </span>
             </Navbar.Collapse>

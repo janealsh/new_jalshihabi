@@ -151,7 +151,7 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-  color: #121212;
+  color: #e1e1e1;
 }
 
 .navbar-text button:hover::before {
@@ -220,12 +220,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .social-icon a {
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   background: rbga(217, 217, 217, 0.1);
   display: inline-flex;
   border-radius: 50%;
-  margin-right: 8px;
+  margin-right: 16px;
   align-items: center;
   justify-content: center;
   line-height: 1;
@@ -234,8 +234,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .social-icon a::before {
   content: "";
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
   position: absolute;
   background-color: #ffffff;
   border-radius: 50%;
@@ -246,12 +246,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* TODO: make an animation for the linkedin icon to account for square shape (without border radius?) */
 
 .social-icon a:hover::before {
-  transform: scale(1);
+  transform: scale(1.2);
 }
 
 .social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
-    hue-rotate(346deg) brightness(95%) contrast(86%);
+  filter: brightness(0) saturate(100%) invert(61%) sepia(22%) saturate(600%)
+    hue-rotate(165deg) brightness(90%) contrast(85%);
 }
 
 #root {
