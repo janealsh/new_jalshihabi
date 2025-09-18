@@ -257,7 +257,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   text-align: center;
 }
 
@@ -362,7 +362,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skills-box {
-  background: #191919;
+  background: #1e1e1e;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -402,12 +402,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Projects CSS */
 
-/* .projects {
-  padding: 80px 40px;
+.projects {
+  padding: 0 40px 80px 40px;
   position: relative;
-  background-color: #191919;
   border-radius: 64px;
-} */
+}
 
 .projects h2 {
 	font-size: 45px;
@@ -534,6 +533,25 @@ a:link {
   letter-spacing: 0.8px;
 }
 
+/* Footer CSS */
+.footer {
+  padding: 100px 0 50px 0;
+  width: 100vw;
+  background-color: #1e1e1e;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
 
 @keyframes logo-spin {
   from {

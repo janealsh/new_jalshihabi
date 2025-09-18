@@ -56,8 +56,8 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col size={12}>
-                        <h2>Projects</h2>
-                        <p>I'm quite a multidisciplinary person, so here are my projects. Click on any to explore!</p>
+                        <h2>projects</h2>
+                        <p>here are a few of my projects; more to come. click on any to explore!</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="software">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
