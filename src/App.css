@@ -515,15 +515,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .projects-text h4 {
   font-size: 30px;
   font-weight: 700;
+  color: #fff;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 .projects-text span {
   font-style: italic;
   font-weight: 400;
+  color: #fff;
   font-size: 15px;
   letter-spacing: 0.8px;
 }

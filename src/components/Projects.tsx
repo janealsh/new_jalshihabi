@@ -13,11 +13,13 @@ export const Projects = () => {
             title: "Mot du Jour",
             description: "An independently completed web development project",
             imgUrl: motDuJour_img,
+            projectLink: "https://mdjapp.netlify.app/",
         },
         {
             title: "Gait Better",
             description: "An iOS app collaboratively developed for my team's SYDE 361 term project",
             imgUrl: gaitBetter_img,
+            projectLink: ""
         },
     ];
 
@@ -26,16 +28,19 @@ export const Projects = () => {
             title: "Don Efficace",
             description: "The project from my time as a product designer on UW Blueprint's Don Efficace team",
             imgUrl: donEfficace_img,
+            projectLink: "https://www.figma.com/deck/JF2TBzz5Rsp93zJtUunKBS/DE-Case-Study-Presentation?node-id=1-311&t=H2eu8Mxqe66GUmIr-1",
         },
         {
             title: "FamJam",
             description: "My team's entry for Wilfrid Laurier University's 2024 UXL designathon",
             imgUrl: famJam_img,
+            projectLink: "https://docs.google.com/presentation/d/1MbEm4evHSG2M3mYszT-cbfkqkyrBmGXBJtBhlKXaewY/edit?usp=sharing",
         },
         {
             title: "Where Am I?",
             description: "Won the beginner track for a 2022 hackathon's beginner track",
             imgUrl: whereAmI_img,
+            projectLink: "",
         },
         // {
         //     title: "Maplesoft",
@@ -66,7 +71,6 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="software">
                                     <Row>
                                         {softwareProjects.map((project, index) => {
-                                            console.log("project info ", project.title, project.imgUrl)
                                             return (<ProjectCard key={index} {...project} />)
                                         })}
                                     </Row>
