@@ -1,9 +1,9 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import jjIcon from "../assets/images/temp-jj-logo-resized.svg"
 import jalshihabi_logo from "../assets/images/jalshihabi_logo.svg"
 import github_icon from "../assets/images/github_final.svg"
 import linkedin_icon from "../assets/images/linkedin_final.svg"
+import ja_resume from "../assets/jane_alshihabi_software_resume_2025.pdf"
 
 export const NavBar = () => {
     const [currentLink, setCurrentLink] = useState("home");
@@ -44,7 +44,7 @@ export const NavBar = () => {
                     <Nav.Link href="#home" className={currentLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("home")}>home</Nav.Link>
                     <Nav.Link href="#skills" className={currentLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("skills")}>skills</Nav.Link>
                     <Nav.Link href="#projects" className={currentLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("projects")}>projects</Nav.Link>
-                    <Nav.Link href="#resume" className={currentLink === "resume" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("resume")}>resume</Nav.Link>
+                    <Nav.Link href={ja_resume} target="_blank" className={currentLink === "resume" ? "active navbar-link" : "navbar-link"}>resume</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
@@ -58,4 +58,5 @@ export const NavBar = () => {
 
     // TODO: add "about me" page
     // TODO add resume link opening in new tab (change href destination?)
+    // TODO update current link based on where user is scrolled to
 }
