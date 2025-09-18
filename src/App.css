@@ -400,10 +400,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 32px;
 }
 
+/* Projects CSS */
+
 /* .projects {
-  padding: 80px 0;
+  padding: 80px 40px;
   position: relative;
-  background-color: black;
+  background-color: #191919;
+  border-radius: 64px;
 } */
 
 .projects h2 {
@@ -463,25 +466,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .projects .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.projecs .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-software {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 55px 0 0 55px;
 }
 .nav-link#projects-tabs-tab-uxui {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
 }
 
-.project-imgbx {
+.projects-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
 }
-.project-imgbx::before {
+.projects-imgbx::before {
   content: "";
   background: #6c9db0;
   opacity: 0.75;
@@ -490,17 +493,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
-.project-imgbx:hover::before {
+.projects-imgbx:hover::before {
   height: 100%;
+  padding: 40px;
 }
 
-.project-imgbx:hover .project-txtx {
+.projects-imgbx:hover .projects-text {
   top: 50%;
   opacity: 1;
 }
 
-.project-txtx {
+.projects-text {
   position: absolute;
+  padding: 20px;
   text-align: center;
   top: 65%;
   left: 50%;
@@ -510,13 +515,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
-.project-txtx h4 {
+.projects-text h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.project-txtx span {
+.projects-text span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;

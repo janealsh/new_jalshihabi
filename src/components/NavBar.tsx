@@ -44,7 +44,7 @@ export const NavBar = () => {
                     <Nav.Link href="#home" className={currentLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("home")}>home</Nav.Link>
                     <Nav.Link href="#skills" className={currentLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("skills")}>skills</Nav.Link>
                     <Nav.Link href="#projects" className={currentLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("projects")}>projects</Nav.Link>
-                    <Nav.Link href="#about-me" className={currentLink === "about-me" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("about-me")}>about me</Nav.Link>
+                    <Nav.Link href="#resume" className={currentLink === "resume" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateCurrentLink("resume")}>resume</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
@@ -55,4 +55,7 @@ export const NavBar = () => {
             </Navbar.Collapse>
         </Navbar>
     );
+
+    // TODO: add "about me" page
+    // TODO add resume link opening in new tab (change href destination?)
 }
